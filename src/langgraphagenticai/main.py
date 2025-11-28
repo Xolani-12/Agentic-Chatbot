@@ -5,6 +5,7 @@ from src.langgraphagenticai.Graph.graph_builder import GraphBuilder
 from src.langgraphagenticai.UI.streamlitui.display_results import DisplayResultStreamlit
 
 
+
 def load_langgrapgh_agentic_app():
     """
     Loads and runs Langgraph AgenticAI Application with Streamlit UI.

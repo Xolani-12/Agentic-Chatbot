@@ -5,7 +5,7 @@ from typing import Annotated
 
 class State(TypedDict):
     """
-    Represent the Structure of teh state used in graph 
+    Represent the Structure of the state used in graph 
     """
     messages: Annotated[List,add_messages]
 
