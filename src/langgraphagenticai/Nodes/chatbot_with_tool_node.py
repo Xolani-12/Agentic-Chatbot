@@ -9,7 +9,7 @@ class ChabotWithToolNode:
     def __init__(self,model):
         self.llm = model
 
-    def process(self,state:State)->dict:
+    def process(self,state: State)->dict:
         """
         Processes the input state and generates  a response with tool integration
         """
